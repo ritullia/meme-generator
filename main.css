@@ -1,0 +1,71 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.left-col {
+    width: 480px;
+    height: auto;
+    border: 3px solid #13a04e;
+    align-items: center;
+}
+.right-col {
+    margin-left: 25px;
+}
+.form-meme {
+    display: inline-grid;
+    gap: 30px;
+    box-sizing: border-box;
+    width: 120px;
+}
+.inpt {
+    width: 240px;
+    height: 3em;
+    margin-bottom: 20px;
+}
+.click {
+    width: 85px;
+    height: 30px;
+    background-color: #13a04e;
+    color: #ffff;
+    border-radius: 0.5em;
+    border: #13a04e;
+}
+.photo {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.description {
+    font-size: 12px;
+    margin-bottom: -25px;
+}
+
+.text-up {
+    margin-left: 160px;
+    margin-top: -280px;
+    font-size: 28px;
+    position: absolute;
+    color: #ffff;
+}
+
+.text-bottom {
+    margin-top: -40px;
+    position: absolute;
+    color: #ffff;
+    margin-left: 160px;
+    font-size: 28px;
+}

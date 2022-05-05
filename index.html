@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>meme generator</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="left-col">
+            <img class="photo" id="img" src="" alt="">
+            <p class="text-up" id="firstText"></p>
+            <p class="text-bottom" id="secondText"></p>
+        </div>
+        <div class="right-col">
+            <form class="form-meme" name="first">
+                <h3 class="description">Tekstas viršuje</h3>
+                <input class="inpt" type="text" name="textVirs" id="text1" placeholder="">
+                <h3 class="description">Tekstas apačioje</h3>
+                <input class="inpt" type="text" name="textBot" id="text2" placeholder="">
+                <h3 class="description">Įveskite paveiksliuko url</h3>
+                <input class="inpt" type="text" name="link" id="text3" placeholder="">
+                <button class="click" id="btn">Generuoti</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+<script src="./meme.js"></script>
+
+</html>
